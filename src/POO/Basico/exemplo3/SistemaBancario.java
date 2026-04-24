@@ -14,10 +14,9 @@ public class SistemaBancario {
 
         System.out.println(cb.sacar(10_000));
 
-        System.out.println(cb.depositar(0););
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println(cb.depositar(1_000););
-
-
+        double valor = sc.nextDouble();
+        cb.depositar(valor);
     }
 }
