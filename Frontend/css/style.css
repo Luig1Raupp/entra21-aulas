@@ -1,0 +1,73 @@
+h1 {
+    color: cyan;
+    font-size: 80px;
+}
+
+a {
+    border-radius: 10px;
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+}
+
+.cor-nome {
+    color: blue;
+}
+
+.cor-hex {
+    color: #298472;
+}
+
+.cor-rgb {
+    color:rgb(35, 248, 255) 
+}
+
+body {
+    background-image: url(https://previews.123rf.com/images/lovelyday12/lovelyday122203/lovelyday12220300002/182824185-green-grass-field-with-blue-sky-ad-white-cloud-nature-landscape-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px ;
+    background-color: black;
+    text-align: center;
+}
+
+nav {
+   background-color: red;
+   text-align: center;
+   padding: 30px;
+
+}
+
+div {
+    background-color: cadetblue;
+}
+
+footer {
+    background-color: aqua;
+    border-color: red;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.miku {
+    color: black;
+    width: 35.5%;
+    height: 35%;
+}
+
+.teto {
+    color: red;
+    width: 26.5%;
+    height: 26%;
+}
+
+.blob {
+    width: 26.5%;
+    height: 26%;
+}
