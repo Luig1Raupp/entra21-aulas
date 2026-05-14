@@ -1,29 +1,31 @@
 body{
     background-color: black;
+    font-family: system-ui, -apple-system, BlikNacSystemFont, "Segoe ui", Roboto;
 }
 
 div {
 background-color: white;
 text-align: center;
-border-style: solid ;
-border-color: yellow;
-
-height: 150px;
+border: yellow 2px solid ;
+width: 315px;
+padding: 8px 24px 24px 24px;
 }
 
 h2 {
-text-align: center;
-color: red;
+text-align: left;
+color: #7d1b1b;
 }
 
 p {
-text-align: center;
+text-align: left;
 }
 
-span {
-    background-color: greenyellow;
-    border-color: green;
-    border-style: dashed;
+.dinheiro {
     color: green;
-    padding: 5px;
+    text-align: center;
+    font-weight: 500;
+    border:green 2px solid;
+    background: greenyellow;
+    width: fit-content;
+    padding: 0px 5px;
 }
