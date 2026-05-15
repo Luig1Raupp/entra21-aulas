@@ -1,0 +1,26 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th ,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 12px;
+}
+
+th{
+    color: purple;
+    background-color: orange;
+    text-shadow: 0 0 5px #ff0000;
+    
+}
+
+td{
+    font-size: x-large;
+
+}
+
+tr:nth-child(even){
+    background-color: #cfbfe0;
+}
